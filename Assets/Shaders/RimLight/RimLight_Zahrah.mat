@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_RimLight
+  m_Name: RimLight_Zahrah
   m_Shader: {fileID: -6465566751694194690, guid: d78c9b1559b76834b98e8bfd2221937c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2995
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -24,8 +24,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _LightCookie:
+        m_Texture: {fileID: 2800000, guid: 47155d1b20d3fc4448daf47b898b1b99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 53e26e63c4dac7342a133e680d7dd804, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_187d47dd9de84caeb8b19637d6dc2fd9_Texture_1_Texture2D:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_a5b2b41d55bb40e880ff778768775282_Texture_1_Texture2D:
@@ -54,16 +62,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _CookieOffset: 0
+    - _CookieScale: 2
+    - _CookieTiling: 1
     - _LightThickness: 0.01
     - _QueueControl: 0
-    - _QueueOffset: 0
-    - _lightThickness: 0.01
+    - _QueueOffset: -5
+    - _lightFalloff: 0.3
+    - _lightThickness: 0.08
     m_Colors:
     - _Color: {r: 128, g: 0, b: 0, a: 1}
+    - _CookieOffset: {r: 0, g: 0, b: 0, a: 0}
     - _LightPosition: {r: -33.48, g: 18.01, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _lightColor: {r: 128, g: 0, b: 0, a: 1}
-    - _lightPosition: {r: -33, g: 18, b: 0, a: 0}
+    - _lightColor: {r: 0, g: 6.882532, b: 47.937256, a: 1}
+    - _lightPosition: {r: -42.66, g: 18.05, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8770222377705296388
