@@ -1498,8 +1498,8 @@
     "m_ObjectId": "2a1daea9a6dd4e7a98b2c3110ae374ff",
     "m_Title": "Falloff",
     "m_Position": {
-        "x": -3830.0,
-        "y": -1918.9998779296875
+        "x": -3830.000244140625,
+        "y": -1919.0
     }
 }
 
@@ -2390,7 +2390,7 @@
     "m_Title": "Offset Texture",
     "m_Position": {
         "x": -4548.0,
-        "y": -787.9999389648438
+        "y": -788.0
     }
 }
 
@@ -4961,7 +4961,7 @@
     "m_ObjectId": "d2b60a5aa4774916b824473b544c98ef",
     "m_Title": "Final Color Calculation",
     "m_Position": {
-        "x": -1779.0,
+        "x": -1779.000244140625,
         "y": -897.0
     }
 }

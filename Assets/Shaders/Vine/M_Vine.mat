@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8973576594338076457
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Vine
+  m_Shader: {fileID: -6465566751694194690, guid: 151db9eb839c8f54fbe03face4c59460, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: b6fb2b3817b42ed4995f8dd65c6de0ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_35ed831c17d449ea98ecb6380684657f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 12fc01bd91e524a4388b434bde9a822b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_40cc042c06c04fa183e9ce8fbeea8501_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9e37f8ce3f62f8d4fb0cb786be1fc1e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_abbc3c010f87420ea592e080d338a691_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9e37f8ce3f62f8d4fb0cb786be1fc1e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c17d8f0aaa20465594167cc41382f95e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b6fb2b3817b42ed4995f8dd65c6de0ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex1:
+        m_Texture: {fileID: 2800000, guid: b42a4ba6f96e37f41a827db73c2350f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex2:
+        m_Texture: {fileID: 2800000, guid: 70c43174880aaf345a50b939430c2610, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_9cd0817763eb4a99a20cfc809347db14_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b6fb2b3817b42ed4995f8dd65c6de0ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _LerpAlpha: 0.04
+    - _NoiseHeight: 0.514
+    - _NoiseScale: 2.99
+    - _NoiseSpeed: -0.35
+    - _NoiseStep: 0.48
+    - _NoiseStrength: 0.29
+    - _NoiseThickness: 0.142
+    m_Colors:
+    - _NoiseTiling: {r: 7.27, g: 1.3, b: 0, a: 0}
+    - _Offset: {r: 0.96, g: -0.41, b: 0, a: 0}
+    - _ScrollSpeed: {r: -0.02, g: 0.16, b: 0, a: 0}
+    - _Tiling: {r: 8.1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
